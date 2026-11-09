@@ -1,0 +1,17 @@
+{
+  "name": "Dashboard Foto Penyadapan",
+  "description": "Dashboard web untuk melihat foto otomatis beserta lokasi GPS/IP",
+  "keywords": ["python", "flask", "dashboard"],
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
